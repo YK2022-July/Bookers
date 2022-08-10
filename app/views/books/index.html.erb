@@ -39,12 +39,12 @@
 
 <%= form_with model: @book,url: '/books', method: :post do |f| %>
   <div class="field">
-    <label>Title</label>
+    <%= f.label :title, "Title" %>
     <%= f.text_field :title %>
   </div>
 
   <div class="field">
-    <label>Body</label>
+    <%= f.label :body, "Body" %>
     <%= f.text_area :body %>
   </div>
 
