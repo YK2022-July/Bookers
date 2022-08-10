@@ -11,6 +11,14 @@
   </head>
 
   <body>
+    <div class="text-create">
+      <%= flash[:create_message] %>
+    </div>
+
+    <div class="text-update">
+      <%= flash[:update_message] %>
+    </div>
+
     <%= yield %>
   </body>
 </html>
