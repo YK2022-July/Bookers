@@ -13,3 +13,145 @@
  *= require_tree .
  *= require_self
  */
+
+
+/*全体の共通設定*/
+ * {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+ }
+
+
+ body {
+   margin: 33px;
+   font-family: 'verdana', 'arial', 'helvetica', sans-serif;
+ }
+
+
+ body :not(h1) :not(h2) {
+   font-size: 13px;
+ }
+
+
+ h1 {
+   margin: 17.42px 0px;
+   font-size: 26px;
+ }
+
+
+/*topの設定*/
+ p {
+   margin: 33px;
+ }
+
+
+/*indexの設定*/
+ #new_book {
+   margin: 16.185px 0px;
+   font-size: 19.5px;
+ }
+
+
+ th {
+   padding: 1px 1px 5px;
+ }
+
+
+ td {
+   margin: 33px;
+   padding: 1px 5px 7px;
+ }
+
+
+
+/*showの設定*/
+ .show_item {
+   margin: 33px;
+ }
+
+
+
+ /*indexとeditの共通設定*/
+
+ label {
+   display: block;
+ }
+
+
+ .field {
+   margin: 0px 0px 10px;
+ }
+
+
+ .actions {
+   margin: 0px 0px 10px;
+ }
+
+
+ .text_area {
+   padding: 2px;
+ }
+
+
+ input[type="text"] {
+   padding: 1px 2px;
+ }
+
+
+ textarea {
+   padding: 2px;
+ }
+
+
+ input[type="submit"] {
+   padding: 1px 6px;
+ }
+
+
+ .error_explanation {
+   width: 450px;
+   box-sizing: border-box;
+   border: 2px solid #c00;
+   margin: 0px 0px 20px;
+   padding: 7px 7px 0px;
+   background-color: #f0f0f0;
+ }
+
+
+ .error_explanation h2 {
+   font-size: 12px;
+   font-weight: bold;
+   background-color: #c00;
+   margin: -7px -7px 0px;
+   padding: 5px 5px 5px 15px;
+   color: white;
+ }
+
+
+ .field_with_errors {
+   background-color: #c00;
+   display: table;
+   padding: 2px;
+ }
+
+
+ ul {
+   margin: 33px;
+   padding: 0px 0px 0px 40px;
+ }
+
+
+/*flashメッセージの装飾*/
+.text-create {
+  margin: 33px;
+  font-size: 13px;
+  color: green;
+}
+
+
+.text-update {
+  margin: 33px;
+  font-size: 13px;
+  color: green;
+}
